@@ -62,7 +62,7 @@ function Contact() {
             <div className="overflow-hidden rounded-2xl border border-border aspect-[4/3]">
               <iframe
                 title="Brew Haven location map"
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-73.965%2C40.706%2C-73.940%2C40.722&layer=mapnik"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=77.415%2C23.248%2C77.435%2C23.262&layer=mapnik&marker=23.255%2C77.425"
                 className="h-full w-full"
                 loading="lazy"
               />
