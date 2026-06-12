@@ -26,7 +26,8 @@ export function Footer() {
 
         <div>
           <h3 className="font-serif text-lg mb-4">Visit</h3>
-          <p className="text-sm text-muted-foreground leading-relaxed text-balance capitalize">jhangirabad, bhopal,<br/>madhya pradesh<br/>Mon–Fri 7am–8pm<br/>Sat–Sun 8am–9pm</p>
+          <p className="text-sm text-muted-foreground leading-relaxed text-balance">jhangirabad, bhopal,<br/>madhya pradesh.<br/>pin - 462022.<br/>Mon–Fri 7am–8pm<br/>Sat–Sun 8am–9pm</p>
+          <p className="mt-2 text-sm text-muted-foreground">9425795775</p>
         </div>
 
         <div>
