@@ -48,7 +48,7 @@ function Contact() {
               { Icon: MapPin, label: "Visit", value: "jhangirabad, bhopal, madhya pradesh.\npin - 462022." },
               { Icon: Clock, label: "Hours", value: "Mon–Fri 7am–8pm · Sat–Sun 8am–9pm" },
               { Icon: Phone, label: "Call", value: "9425795775" },
-              { Icon: Mail, label: "Email", value: "hello@brewhaven.cafe" },
+              { Icon: Mail, label: "Email", value: "hello@hearthandbean.cafe" },
             ].map(i => (
               <div key={i.label} className="flex gap-4">
                 <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground"><i.Icon className="h-5 w-5" /></span>
