@@ -54,7 +54,7 @@ function Contact() {
                 <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground"><i.Icon className="h-5 w-5" /></span>
                 <div className="min-w-0">
                   <p className="text-xs uppercase tracking-wider text-muted-foreground">{i.label}</p>
-                  <p className="text-foreground">{i.value}</p>
+                  <p className="text-foreground whitespace-pre-line">{i.value}</p>
                 </div>
               </div>
             ))}
