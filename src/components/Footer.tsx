@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
-import { Coffee, Facebook, Instagram, Twitter, Mail } from "lucide-react";
+import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   const [email, setEmail] = useState("");
@@ -10,7 +11,7 @@ export function Footer() {
       <div className="container-page py-16 grid gap-12 md:grid-cols-4">
         <div className="md:col-span-1">
           <div className="flex items-center gap-2">
-            <span className="grid h-9 w-9 place-items-center rounded-full bg-primary text-primary-foreground"><Coffee className="h-5 w-5" /></span>
+            <img src={logo} alt="Brew Haven" className="h-9 w-9 object-contain" />
             <span className="font-serif text-2xl font-semibold">Brew Haven</span>
           </div>
           <p className="mt-4 text-sm text-muted-foreground leading-relaxed">Crafted coffee, made with passion. Ethically sourced, freshly roasted, served with care.</p>

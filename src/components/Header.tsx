@@ -1,8 +1,9 @@
 import { Link } from "@tanstack/react-router";
-import { Coffee, Moon, ShoppingBag, Sun, Menu as MenuIcon, X } from "lucide-react";
+import { Moon, ShoppingBag, Sun, Menu as MenuIcon, X } from "lucide-react";
 import { useState } from "react";
 import { useTheme } from "@/lib/theme";
 import { useCart } from "@/lib/cart";
+import logo from "@/assets/logo.png";
 
 const links = [
   { to: "/", label: "Home" },
@@ -24,9 +25,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="container-page flex h-16 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2 group">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-primary text-primary-foreground transition-transform group-hover:rotate-12">
-            <Coffee className="h-5 w-5" />
-          </span>
+          <img src={logo} alt="Brew Haven" className="h-9 w-9 object-contain transition-transform group-hover:rotate-12" />
           <span className="font-serif text-2xl font-semibold tracking-tight">Brew Haven</span>
         </Link>
 
