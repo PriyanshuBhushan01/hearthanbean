@@ -5,9 +5,9 @@ import { Calendar, Music, Sparkles } from "lucide-react";
 export const Route = createFileRoute("/events")({
   head: () => ({
     meta: [
-      { title: "Events & Promotions — Brew Haven" },
-      { name: "description", content: "Live music nights, coffee workshops, latte art classes and seasonal promotions at Brew Haven." },
-      { property: "og:title", content: "Events & Promotions — Brew Haven" },
+      { title: "Events & Promotions — The Snug Mug" },
+      { name: "description", content: "Live music nights, coffee workshops, latte art classes and seasonal promotions at The Snug Mug." },
+      { property: "og:title", content: "Events & Promotions — The Snug Mug" },
       { property: "og:description", content: "Live music, workshops and seasonal offers." },
       { property: "og:url", content: "/events" },
     ],

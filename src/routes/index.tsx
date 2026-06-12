@@ -7,9 +7,9 @@ import { menu } from "@/lib/menu-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Brew Haven — Crafted Coffee, Made with Passion" },
+      { title: "The Snug Mug — Crafted Coffee, Made with Passion" },
       { name: "description", content: "Specialty coffee shop in Brooklyn serving handcrafted espresso, cold brew, tea and fresh pastries. Order online or visit us." },
-      { property: "og:title", content: "Brew Haven — Crafted Coffee" },
+      { property: "og:title", content: "The Snug Mug — Crafted Coffee" },
       { property: "og:description", content: "Handcrafted espresso, cold brew, tea and pastries in Brooklyn." },
       { property: "og:url", content: "/" },
     ],
@@ -22,7 +22,7 @@ function Home() {
   const featured = menu.filter(m => m.bestseller).slice(0, 4);
   const testimonials = [
     { name: "Maya R.", quote: "The cold brew is unreal. I keep coming back for the vanilla cream version.", rating: 5 },
-    { name: "Daniel K.", quote: "Brew Haven feels like a friend's living room — but with better coffee.", rating: 5 },
+    { name: "Daniel K.", quote: "The Snug Mug feels like a friend's living room — but with better coffee.", rating: 5 },
     { name: "Priya S.", quote: "Best latte art in the borough. The seasonal menu always surprises.", rating: 5 },
   ];
 
@@ -31,7 +31,7 @@ function Home() {
       {/* Hero */}
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0 -z-10">
-          <img src={hero} alt="Brew Haven cafe interior at golden hour" width={1920} height={1080} className="h-full w-full object-cover" />
+          <img src={hero} alt="The Snug Mug cafe interior at golden hour" width={1920} height={1080} className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-espresso/70 via-espresso/55 to-espresso/85" />
         </div>
         <div className="container-page min-h-[88dvh] flex items-center py-24">
@@ -43,7 +43,7 @@ function Home() {
               Crafted Coffee, <br/><em className="text-accent not-italic font-normal">Made with Passion.</em>
             </h1>
             <p className="mt-6 max-w-lg text-base sm:text-lg text-cream/80 leading-relaxed">
-              Single-origin beans, slow rituals, and a warm seat by the window. Every cup at Brew Haven is poured with patience and a quiet kind of love.
+              Single-origin beans, slow rituals, and a warm seat by the window. Every cup at The Snug Mug is poured with patience and a quiet kind of love.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link to="/order" className="group inline-flex items-center gap-2 rounded-full bg-cream px-6 py-3 text-sm font-medium text-espresso transition hover:gap-3 hover:bg-accent hover:text-accent-foreground">

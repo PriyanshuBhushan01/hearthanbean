@@ -6,9 +6,9 @@ import barista from "@/assets/barista.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Our Story — Brew Haven" },
-      { name: "description", content: "Brew Haven began as a tiny corner roastery in Brooklyn. Today we serve ethically sourced, handcrafted coffee with a passion for sustainability." },
-      { property: "og:title", content: "Our Story — Brew Haven" },
+      { title: "Our Story — The Snug Mug" },
+      { name: "description", content: "The Snug Mug began as a tiny corner roastery in Brooklyn. Today we serve ethically sourced, handcrafted coffee with a passion for sustainability." },
+      { property: "og:title", content: "Our Story — The Snug Mug" },
       { property: "og:description", content: "Ethically sourced beans, sustainable practices, handcrafted beverages." },
       { property: "og:url", content: "/about" },
     ],
@@ -25,7 +25,7 @@ function About() {
           <div className="animate-fade-up">
             <p className="text-xs uppercase tracking-[0.25em] text-accent">Our Story</p>
             <h1 className="mt-3 font-serif text-5xl md:text-6xl leading-[1.05]">A quiet love letter to coffee.</h1>
-            <p className="mt-6 text-lg text-muted-foreground leading-relaxed">Brew Haven started in 2014 as a single roaster in a Williamsburg garage. Ten years on, we still roast every bean ourselves — small batch, every week — because we believe a good cup begins long before the espresso pulls.</p>
+            <p className="mt-6 text-lg text-muted-foreground leading-relaxed">The Snug Mug started in 2014 as a single roaster in a Williamsburg garage. Ten years on, we still roast every bean ourselves — small batch, every week — because we believe a good cup begins long before the espresso pulls.</p>
             <p className="mt-4 text-muted-foreground leading-relaxed">We partner directly with growers in Ethiopia, Colombia and Guatemala, paying above fair-trade so the people behind every harvest can thrive. What lands in your cup is the result of countless hands — and we honor every one of them.</p>
           </div>
           <div className="grid grid-cols-2 gap-4">
