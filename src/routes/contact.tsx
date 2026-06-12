@@ -45,9 +45,9 @@ function Contact() {
         <div className="mt-14 grid lg:grid-cols-2 gap-12">
           <div className="space-y-6">
             {[
-              { Icon: MapPin, label: "Visit", value: "jhangirabad, bhopal, madhya pradesh" },
+              { Icon: MapPin, label: "Visit", value: "jhangirabad, bhopal, madhya pradesh.\npin - 462022." },
               { Icon: Clock, label: "Hours", value: "Mon–Fri 7am–8pm · Sat–Sun 8am–9pm" },
-              { Icon: Phone, label: "Call", value: "(718) 555-0142" },
+              { Icon: Phone, label: "Call", value: "9425795775" },
               { Icon: Mail, label: "Email", value: "hello@brewhaven.cafe" },
             ].map(i => (
               <div key={i.label} className="flex gap-4">
