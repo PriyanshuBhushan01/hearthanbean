@@ -7,9 +7,9 @@ import latte from "@/assets/latte-art.jpg";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Journal — The Snug Mug" },
-      { name: "description", content: "Articles on coffee brewing techniques, bean origins, café news and barista craft from The Snug Mug." },
-      { property: "og:title", content: "Journal — The Snug Mug" },
+      { title: "Journal — Hearth & Bean" },
+      { name: "description", content: "Articles on coffee brewing techniques, bean origins, café news and barista craft from Hearth & Bean." },
+      { property: "og:title", content: "Journal — Hearth & Bean" },
       { property: "og:description", content: "Coffee brewing, origins and café stories." },
       { property: "og:url", content: "/blog" },
     ],

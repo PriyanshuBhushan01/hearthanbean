@@ -8,9 +8,9 @@ import { useState } from "react";
 export const Route = createFileRoute("/order")({
   head: () => ({
     meta: [
-      { title: "Order Online — The Snug Mug" },
-      { name: "description", content: "Order your The Snug Mug favorites for pickup. Browse bestsellers and customize your drinks." },
-      { property: "og:title", content: "Order Online — The Snug Mug" },
+      { title: "Order Online — Hearth & Bean" },
+      { name: "description", content: "Order your Hearth & Bean favorites for pickup. Browse bestsellers and customize your drinks." },
+      { property: "og:title", content: "Order Online — Hearth & Bean" },
       { property: "og:description", content: "Order specialty coffee for pickup." },
       { property: "og:url", content: "/order" },
     ],

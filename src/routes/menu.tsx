@@ -8,9 +8,9 @@ import { useState } from "react";
 export const Route = createFileRoute("/menu")({
   head: () => ({
     meta: [
-      { title: "Menu — The Snug Mug" },
-      { name: "description", content: "Explore The Snug Mug's full menu of espresso, cappuccino, latte, cold brew, tea, pastries and seasonal specials." },
-      { property: "og:title", content: "Menu — The Snug Mug" },
+      { title: "Menu — Hearth & Bean" },
+      { name: "description", content: "Explore Hearth & Bean's full menu of espresso, cappuccino, latte, cold brew, tea, pastries and seasonal specials." },
+      { property: "og:title", content: "Menu — Hearth & Bean" },
       { property: "og:description", content: "Espresso, lattes, cold brew, tea and fresh pastries." },
       { property: "og:url", content: "/menu" },
     ],

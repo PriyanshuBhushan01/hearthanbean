@@ -7,9 +7,9 @@ import { z } from "zod";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — The Snug Mug" },
-      { name: "description", content: "Visit The Snug Mug in Bhopal. Find our location, hours, phone and contact form." },
-      { property: "og:title", content: "Contact — The Snug Mug" },
+      { title: "Contact — Hearth & Bean" },
+      { name: "description", content: "Visit Hearth & Bean in Bhopal. Find our location, hours, phone and contact form." },
+      { property: "og:title", content: "Contact — Hearth & Bean" },
       { property: "og:description", content: "Find us in Bhopal. Hours, map and contact form." },
       { property: "og:url", content: "/contact" },
     ],
@@ -61,7 +61,7 @@ function Contact() {
 
             <div className="overflow-hidden rounded-2xl border border-border aspect-[4/3]">
               <iframe
-                title="The Snug Mug location map"
+                title="Hearth & Bean location map"
                 src="https://www.openstreetmap.org/export/embed.html?bbox=77.415%2C23.248%2C77.435%2C23.262&layer=mapnik&marker=23.255%2C77.425"
                 className="h-full w-full"
                 loading="lazy"
