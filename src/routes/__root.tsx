@@ -50,13 +50,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Brew Haven — Crafted Coffee, Made with Passion" },
-      { name: "description", content: "Brew Haven is a specialty coffee shop serving ethically sourced, handcrafted espresso, cold brew, tea and pastries in Brooklyn." },
-      { name: "author", content: "Brew Haven" },
-      { property: "og:title", content: "Brew Haven — Crafted Coffee" },
+      { title: "The Snug Mug — Crafted Coffee, Made with Passion" },
+      { name: "description", content: "The Snug Mug is a specialty coffee shop serving ethically sourced, handcrafted espresso, cold brew, tea and pastries in Brooklyn." },
+      { name: "author", content: "The Snug Mug" },
+      { property: "og:title", content: "The Snug Mug — Crafted Coffee" },
       { property: "og:description", content: "Specialty coffee, handcrafted beverages, warm Brooklyn café." },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Brew Haven" },
+      { property: "og:site_name", content: "The Snug Mug" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [

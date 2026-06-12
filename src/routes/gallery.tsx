@@ -13,10 +13,10 @@ import tea from "@/assets/tea.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery — Brew Haven" },
-      { name: "description", content: "Step inside Brew Haven — coffee drinks, baristas at work, café ambiance and seasonal food in photos." },
-      { property: "og:title", content: "Gallery — Brew Haven" },
-      { property: "og:description", content: "A visual walk through Brew Haven." },
+      { title: "Gallery — The Snug Mug" },
+      { name: "description", content: "Step inside The Snug Mug — coffee drinks, baristas at work, café ambiance and seasonal food in photos." },
+      { property: "og:title", content: "Gallery — The Snug Mug" },
+      { property: "og:description", content: "A visual walk through The Snug Mug." },
       { property: "og:url", content: "/gallery" },
     ],
     links: [{ rel: "canonical", href: "/gallery" }],
