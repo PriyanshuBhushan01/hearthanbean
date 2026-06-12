@@ -25,8 +25,8 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="container-page flex h-16 items-center justify-between gap-4">
         <Link to="/" className="flex items-center gap-2 group">
-          <img src={logo} alt="The Snug Mug" className="h-9 w-9 object-contain transition-transform group-hover:rotate-12" />
-          <span className="font-serif text-2xl font-semibold tracking-tight">The Snug Mug</span>
+          <img src={logo} alt="Hearth & Bean" className="h-9 w-9 object-contain transition-transform group-hover:rotate-12" />
+          <span className="font-serif text-2xl font-semibold tracking-tight">Hearth & Bean</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7 text-sm">
