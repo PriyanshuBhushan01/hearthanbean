@@ -25,7 +25,7 @@ export function Footer() {
 
         <div>
           <h3 className="font-serif text-lg mb-4">Visit</h3>
-          <p className="text-sm text-muted-foreground leading-relaxed">221 Roastery Lane<br/>Brooklyn, NY 11211<br/>Mon–Fri 7am–8pm<br/>Sat–Sun 8am–9pm</p>
+          <p className="text-sm text-muted-foreground leading-relaxed text-balance capitalize">jhangirabad, bhopal,<br/>madhya pradesh<br/>Mon–Fri 7am–8pm<br/>Sat–Sun 8am–9pm</p>
         </div>
 
         <div>
@@ -54,7 +54,7 @@ export function Footer() {
       <div className="border-t border-border">
         <div className="container-page py-6 text-xs text-muted-foreground flex flex-wrap justify-between gap-3">
           <span>© {new Date().getFullYear()} Brew Haven. All rights reserved.</span>
-          <span>Crafted with care in Brooklyn.</span>
+          <span>Crafted with care.</span>
         </div>
       </div>
     </footer>

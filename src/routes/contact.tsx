@@ -8,9 +8,9 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Brew Haven" },
-      { name: "description", content: "Visit Brew Haven in Brooklyn. Find our location, hours, phone and contact form." },
+      { name: "description", content: "Visit Brew Haven in Bhopal. Find our location, hours, phone and contact form." },
       { property: "og:title", content: "Contact — Brew Haven" },
-      { property: "og:description", content: "Find us in Brooklyn. Hours, map and contact form." },
+      { property: "og:description", content: "Find us in Bhopal. Hours, map and contact form." },
       { property: "og:url", content: "/contact" },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
@@ -45,7 +45,7 @@ function Contact() {
         <div className="mt-14 grid lg:grid-cols-2 gap-12">
           <div className="space-y-6">
             {[
-              { Icon: MapPin, label: "Visit", value: "221 Roastery Lane, Brooklyn, NY 11211" },
+              { Icon: MapPin, label: "Visit", value: "jhangirabad, bhopal, madhya pradesh" },
               { Icon: Clock, label: "Hours", value: "Mon–Fri 7am–8pm · Sat–Sun 8am–9pm" },
               { Icon: Phone, label: "Call", value: "(718) 555-0142" },
               { Icon: Mail, label: "Email", value: "hello@brewhaven.cafe" },
